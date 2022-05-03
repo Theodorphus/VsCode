@@ -6,6 +6,7 @@ body {
 
 
     width: 1024px;
+    margin:auto;
   
    
 
@@ -136,3 +137,102 @@ body {
    
 
 }
+
+div.Upper {
+    text-transform: uppercase;
+
+    position:relative;
+    border: 5px solid #73AD21;
+    width: 20%;
+    right: 440px;
+   
+  }
+
+  div.Thai {
+  
+
+    position:relative;
+    border: 5px solid #73AD21;
+    width: 20%;
+    right: 250px;
+    bottom:200px;
+   
+  }
+  div.Kambodja{
+  
+
+    position:relative;
+    border: 5px solid #73AD21;
+    width: 20%;
+    right: 0px;
+    bottom:230px;
+   
+  }
+  div.Vietnam{
+  
+
+    position:relative;
+    border: 5px solid #73AD21;
+    width: 20%;
+    bottom: 260px;
+    left: 250px;
+   
+  }
+  div.Index{
+  
+
+    position:relative;
+    border: 5px solid #73AD21;
+    width: 20%;
+    bottom: 307px;
+    left: 1250px;
+   
+  }
+  div.footer{
+  
+
+    position:relative;
+    border: 5px solid #73AD21;
+    width: 20%;
+    top: 500px;
+   left: 400px;
+   
+  }
+
+  div.form {
+
+    position:relative;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    left: 350px;
+  }
+
+  div.logg {
+    position:relative;
+   
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 20%;
+    height: 20%;
+    left: 200px;
+
+  }
+
+  div.Login {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    width: 38%;
+  }
+  
+  div.Åter {
+
+    background-color: white;
+    color: black;
+    border: 2px solid #b22a2a;
+    width: 35%;
+
+  }
