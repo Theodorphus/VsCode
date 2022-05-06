@@ -1,18 +1,23 @@
 
 * {
-    margin: 0px;
+   
     padding:0px;
+    box-sizing: border-box;
+    
+}
+
+html {
+max-width: 1024px;   
+margin:auto;
+
 }
 
 
 body {
   
     font-family: sans-serif;
-    width: 1024px;
-    margin:auto;
-    display:flex;
-
-}
+    
+   }
   
   
 .topleft {
@@ -26,37 +31,42 @@ body {
 
 .article1 {
   position: relative;
+  top: 230px;
+  left: 170px;
+  font-size: 20px;
   
-  top: 100%;
 }
 .article2 {
   position: relative;
   text-align: center;
-  top: 85%;
+  top: 50px;
+  left: 170px;
+  font-size: 20px;
 }
 
 .center {
   position: relative;
   text-align: center;
-  top: 70%;
-  right: 20%
+  top: 150px;
+  font-size: 20px;
+  
 }
 
 .fruktinfo {
   position: relative;
 
-     font-size: 20px;
- top: 60%;
- left: 20%
+ font-size: 25px;
+ top: 120px;
+ left: 380px;
  
 }
 
 .välkommen {
 
   position: relative;
-  top: 100px;
-right: 420px;
-  font-size: 18px;
+  top: 80px;
+  right: 440px;
+  font-size: 15px;
 
 }
 
@@ -65,7 +75,7 @@ right: 420px;
   bottom: 10%;
   right: 16px;
   font-size: 18px;
-  line-height: 300%;
+  line-height: 250%;
 }
 
 .bottomleft {
@@ -89,8 +99,8 @@ right: 420px;
 .firstlist {
 
   position: relative;
-  bottom: 40px;
-  left: 350px;
+  bottom: 60px;
+  
 }
 
 
@@ -128,9 +138,9 @@ div.Upper {
     text-transform: uppercase;
 
     position: absolute;
-    top: 8px;
+    top: 0px;
     left: 16px;
-    font-size: 12px;
+    font-size: 15px;
   
    
   }
@@ -139,7 +149,7 @@ div.Upper {
     position: relative;
     text-align: center;
     top: 400px;
-    left: 100px;
+    
     line-height: 1.8;
      letter-spacing: 1px;
      border-radius: 25px;
@@ -152,8 +162,9 @@ div.Upper {
   .logg {
     position: relative;
     text-align: center;
-    top: 350px;
-    left: 100px;
+    top: 400px;
+    right: 350px;
+    
   }
 
 
@@ -215,7 +226,7 @@ div.Upper {
 
     position: relative;
     
-    left: 410px;
+   
   }
   
   
